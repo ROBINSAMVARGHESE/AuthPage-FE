@@ -1,0 +1,64 @@
+/* Wrapper for the form */
+.form-wrapper {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Style form labels */
+.form-label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+/* Style input fields */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 4px rgba(42, 157, 143, 0.3);
+}
+
+/* Style the login button */
+.btn-primary {
+    background-color: #2a9d8f;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #21867a;
+}
+
+.btn-primary:focus {
+    background-color: #2a9d8f;
+    box-shadow: 0 0 4px rgba(42, 157, 143, 0.3);
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .form-wrapper {
+        padding: 1.5rem; 
+    }
+    
+    .form-control {
+        font-size: 0.9rem; 
+    }
+
+    .btn-primary {
+        padding: 0.5rem 1rem; 
+    }
+}

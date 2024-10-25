@@ -1,0 +1,54 @@
+/* Style for the Signup Form container */
+.signup-form-container {
+    width: 100%;
+    max-width: 400px; 
+    margin: 50px auto;   
+    padding: 20px;
+    background-color: #f7f7f7;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+/* Style for form inputs */
+.signup-form-container input[type="text"],
+.signup-form-container input[type="email"],
+.signup-form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.signup-form-container button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a9d8f;  
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+.signup-form-container button[type="submit"]:hover {
+    background-color: #264653;  
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .signup-form-container {
+        padding: 15px;
+    }
+
+    .signup-form-container input[type="text"],
+    .signup-form-container input[type="email"],
+    .signup-form-container input[type="password"] {
+        font-size: 14px;
+    }
+}
